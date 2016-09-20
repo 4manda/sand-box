@@ -1,2 +1,2 @@
 # sand-box
-testing environment
+# This is a testing environment.
