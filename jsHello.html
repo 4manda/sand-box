@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+  
+  <p>Header...</p>
+
+  <!-- sript tag tells browser that there is executable content inside -->
+  <script>
+    /*
+      alert outputs a message window on the screen and awaits until visitor presses OK
+    */
+    //alert('I am JavaScript!');
+
+    /* 
+     The following are all different, legal variables
+     Values of variables can be number, string, boolean, object, or null/undefined
+     variables are weakly typed (every value has a type and any variable can have any value type)
+    */
+    //var x = 5, _x = 6, $x = 7, x8 = 8, X = 9;
+    //alert(x + _x + $x + x8 + X);
+    
+    /*
+       prompt accepts two args and outputs a modal window with the text, OK/CANCEL buttons and input field.
+       result = prompt(text[, default]);
+       if user types and presse OK, then returns input
+       if user clicks OK, returns default
+       if user clicks CANCEL, returns null
+    */
+    //var years = prompt('How old are you?', 100);
+    //alert('You are ' + years + ' years old!');
+
+    /* confirm outputs the message with OK/CANCEL
+       result is true/false for OK/CANCEL
+       result = confirm(message)
+    */
+    //var result = confirm("Should I say hello?")
+    //alert(result)
+    
+    var name = prompt("What is your name?", "no name");
+    alert(name);
+  </script>
+
+  <p> ... Footer</p>
+
+</body>
+</html>

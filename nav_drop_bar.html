@@ -1,0 +1,51 @@
+<!doctype=html>
+<html>
+<head>
+  <style>
+    .navbar {
+
+    }
+    ul {
+
+    }
+    .dropdown {
+      position: relative;
+      background: grey;
+      padding: 0px 0px;
+      float: left;
+    }
+    a {
+      padding: 8px 16px;
+      display: block;
+      color: inherit;
+      font-size: 16px;
+      text-decoration: none;
+    }
+    a:hover {
+      background-color: lightgrey;
+      color: black;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: grey;
+      width: inherit;
+    }
+    .dropdown:hover .dropdown-content{
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+      <div class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">dropdown</a>
+        <div class="dropdown-content">
+          <a>1st</a>
+          <a>2nd</a>
+        </div>
+      </div>
+  </div>
+</body>
+
+</html>
